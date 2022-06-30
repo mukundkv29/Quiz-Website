@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <!-- top section -->
+
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">
+                Ninja Quiz
+            </h2>
+        </div>
+    </div>
+
+    <!-- result  -->
+
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>
+                Final Result:
+                <span class="text-primary display-4 p-3">0%</span>
+                
+            </p>
+        </div>
+    </div>
+
+    <!-- quiz section  -->
+
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">
+                On with the questions...
+            </h2>
+
+            <form  class="quiz-form text-light">
+
+
+                <div class="my-5">
+
+
+                    <p class="lead font-weight-normal">
+                        1. Identify the correct statement regarding OSS:
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label  class="form-check-label">
+                            It is available for nominal or zero licensing and usage charges
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B" >
+                        <label  class="form-check-label">
+                            It can be shared with others freely
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="C" >
+                        <label  class="form-check-label">
+                            It is modifiable
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="D" >
+                        <label  class="form-check-label">
+                            All of the above
+                        </label>
+                    </div>
+
+
+                </div>
+
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2. OL stands for :
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label  class="form-check-label">Organized List</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B" >
+                        <label  class="form-check-label">
+                            Outstanding List
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="C" >
+                        <label  class="form-check-label">
+                            Ordered List
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="D" >
+                        <label  class="form-check-label">
+                            Overall List
+                        </label>
+                    </div>
+                    
+                </div>
+
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3. Term _____ refers to the gap between those who have access to ICTs and those who don't.
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label  class="form-check-label">Internet gap</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B" >
+                        <label  class="form-check-label">
+                            Internet divide
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="C" >
+                        <label  class="form-check-label">
+                            Digital divide
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="D" >
+                        <label  class="form-check-label">Technology divide
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4. GIMP, Mozilla Firefox, GNU/Linux, Python etc. come under :
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label  class="form-check-label">Freeware</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B" >
+                        <label  class="form-check-label">
+                            FOSS
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="C" >
+                        <label  class="form-check-label">
+                            Shareware
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="D" >
+                        <label  class="form-check-label">
+                            Proprietary
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        5.Which of the following will come under IPR
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label  class="form-check-label">Trademark </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B" >
+                        <label  class="form-check-label">
+                            Patent
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="C" >
+                        <label  class="form-check-label">
+                            Copyright 
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="D" >
+                        <label  class="form-check-label">
+                            None of the above 
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        6. Face, size, colour or attributes of which tag ?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="A" checked>
+                        <label  class="form-check-label">Text</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="B" >
+                        <label  class="form-check-label">
+                            Font
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="C" >
+                        <label  class="form-check-label">
+                            T
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="D" >
+                        <label  class="form-check-label">
+                            F
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        7. Encryption is one of the most prominent techniques used for ?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="A" checked>
+                        <label  class="form-check-label">Fast data transmission</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="B" >
+                        <label  class="form-check-label">
+                            Secure data transmission
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="C" >
+                        <label  class="form-check-label">
+                            Far away data transmission
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="D" >
+                        <label  class="form-check-label">
+                            Free data transmission
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        8. R in IPR stands for:
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="A" checked>
+                        <label  class="form-check-label">Role </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="B" >
+                        <label  class="form-check-label">
+                            Rights
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="C" >
+                        <label  class="form-check-label">
+                            Range
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="D" >
+                        <label  class="form-check-label">
+                            RAM
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        9. Name the activity of electronically buying or selling of products on online services or over the Internet:
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="A" checked>
+                        <label  class="form-check-label">Cyber commerce</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="B" >
+                        <label  class="form-check-label">
+                            Electric commerce
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="C" >
+                        <label  class="form-check-label">
+                            Internet business
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="D" >
+                        <label  class="form-check-label">
+                            e-Commerce
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        10. Pick the odd one out:
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="A" checked>
+                        <label  class="form-check-label">Amazon</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="B" >
+                        <label  class="form-check-label">
+                            e-Bay
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="C" >
+                        <label  class="form-check-label">
+                            Twitter
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="D" >
+                        <label  class="form-check-label">
+                            Flipkart
+                        </label>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="sandbox.js"></script>
+</body>
+</html>
